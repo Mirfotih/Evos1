@@ -93,7 +93,7 @@ valyuta = ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=True).add(U
 настройки = KeyboardButton("настройки")
 
 valyuta1 = ReplyKeyboardMarkup(resize_keyboard=True,one_time_keyboard=True).add(США,руб).add(евро,настройки)
-
+###############################salom
 
 @bots.message_handler(commands=["start"])
 async def til(message: types.Message):
